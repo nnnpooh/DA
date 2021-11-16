@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "copyfiles": "^2.4.1",
+    "serve": "^13.0.2"
+  },
   "devDependencies": {
     "@marp-team/marp-cli": "^1.4.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "marp1": "npx marp --html src -o public/index.html"
+    "marpA": "npx marp --html src/lectureA.md -o public/indexA.html && npx copyfiles -f src/img/* public/img",
+    "marpB": "npx marp --html src/lectureB.md -o public/indexB.html && npx copyfiles -f src/img/* public/img"
   },
   "author": "",
   "license": "ISC"
