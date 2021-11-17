@@ -13,7 +13,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "marpA": "npx marp --html src/lectureA.md -o public/workshop1.html && npx copyfiles -f src/img/* public/img",
-    "marpB": "npx marp --html src/lectureB.md -o public/workshop2.html && npx copyfiles -f src/img/* public/img"
+    "marpB": "npx marp --html src/lectureB.md -o public/workshop2.html && npx copyfiles -f src/img/* public/img",
+    "marpC": "npx marp --html src/lectureC.md -o public/workshop3.html && npx copyfiles -f src/img/* public/img"
   },
   "author": "",
   "license": "ISC"

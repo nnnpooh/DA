@@ -5,6 +5,7 @@
   --blue: #71dfe7;
   --blue-darker: #42a8af;
   --gray: rgb(59, 59, 59);
+  --gray-lighter: rgb(170, 170, 170);
 }
 body {
   font-family: Kanit, Arial, Helvetica, sans-serif;
@@ -19,8 +20,9 @@ body {
 }
 
 .stripe {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url(https://source.unsplash.com/random/800x160);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.418)),
+    url(https://source.unsplash.com/random/1920x600);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 160px;
@@ -52,10 +54,17 @@ body {
 }
 
 .header {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.2em;
   font-size: 1.2rem;
   font-weight: bold;
   color: var(--gray);
+}
+
+.sub-header {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--gray-lighter);
+  margin-bottom: 0.3rem;
 }
 
 ul {
