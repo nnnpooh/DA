@@ -8,8 +8,9 @@ math: mathjax
 ---
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap');
     :root {
-    font-family: kanit light;
+    font-family: Kanit;
 }
 div.colwrap {
   background-color: inherit;

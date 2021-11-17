@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('fa/css/all.css');
+
+:root {
+  --blue: #71dfe7;
+  --blue-darker: #42a8af;
+  --gray: rgb(59, 59, 59);
+}
+body {
+  font-family: Kanit, Arial, Helvetica, sans-serif;
+  background-color: rgb(230, 230, 230);
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.stripe {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(https://source.unsplash.com/random/800x160);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.header-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box-item {
+  background-color: white;
+  padding: 1em;
+  min-width: 10em;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  flex: 1;
+}
+
+.header {
+  margin-bottom: 0.5em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--gray);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+}
+
+a {
+  flex: 1;
+  text-decoration: none;
+  color: white;
+  background-color: var(--blue);
+  padding: 0.25em 1em;
+  margin: 0.5em 0;
+  border-radius: 1em;
+  text-align: center;
+  transition: background-color 150ms;
+}
+
+a:hover {
+  background-color: var(--blue-darker);
+}
+
+i {
+  margin-right: 0.5em;
+}
