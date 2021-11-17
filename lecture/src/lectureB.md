@@ -3,7 +3,7 @@ marp: true
 theme: default
 author: Nirand Pisutha-Arnond
 paginate: true
-footer: 'Workshop Part B: Descriptive Analysis Using Power BI / Chart'
+footer: 'Workshop Part 2: Descriptive Analysis Using Power BI / Chart'
 math: mathjax
 ---
 
@@ -53,9 +53,9 @@ div.colwrap div.right {
 
 <!-- Slide Start -->
 
-# Workshop
+# Workshop Part 2
 
-## Part 2: Descriptive Analysis Using Power BI
+## Descriptive Analysis Using Power BI
 
 ---
 
@@ -590,4 +590,12 @@ div.colwrap div.right {
 
 # กิจกรรม – ท้ายบท
 
-- สร้าง Dashboard สำหรับข้อมูล Shopee
+- สร้าง Dashboard สำหรับข้อมูล การส่งสินค้าของ Shopee
+  - ประเทศฟิลิปปินส์
+  - ในช่วง มีนาคม 2563 - เมษายน 2563
+  - ระหว่างเมืองมะนิลา, หมู่เกาะลูซอน, หมู่เกาะมินดาเนา, หมู่เกาะวิสายาส์
+- `shopee_orders.csv`
+  - ข้อมูลถูกดัดแปลงให้มีขนาดลดลงจาก [ข้อมูลดิบ](https://www.kaggle.com/c/logistics-shopee-code-league/data)
+  - เพิ่มข้อมูลของบริษัทขนส่ง (fabricated data)
+- ให้ลองหาข้อสรุปที่สามารถนำมาปรับปรุงบริการการส่งสินค้า
+  - ใช้ `Excel` หรือ `Power BI`
