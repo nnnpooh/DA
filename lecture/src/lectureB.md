@@ -196,7 +196,7 @@ div.colwrap div.right {
 - `Data` -> `Table tools` -> `New column`
 
 - สูตร
-  - `MartialStatus = RELATED(Demo[MaritalStatus]`
+  - `MartialStatus = RELATED(Demo[MaritalStatus])`
   - สามารถลบออกได้ไม่จำเป็นต้องมี
 
 </div>

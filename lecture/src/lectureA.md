@@ -3,7 +3,7 @@ marp: true
 theme: default
 author: Nirand Pisutha-Arnond
 paginate: true
-footer: 'Workshop Part 1: Descriptive Analysis Using Power Pivot / Chart'
+footer: 'Workshop Part 1: Descriptive Analysis Using Pivot Table / Pivot Chart'
 math: mathjax
 ---
 
@@ -55,7 +55,7 @@ div.colwrap div.right {
 
 # Workshop Part 1
 
-## Descriptive Analysis Using Power Pivot / Chart
+## Descriptive Analysis Using Pivot Table / Pivot Chart
 
 ---
 
