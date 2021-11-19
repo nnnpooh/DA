@@ -82,7 +82,7 @@ div.colwrap div.right {
 # Python Code
 
 ```python
-print("Hello World)
+print("Hello World")
 ```
 
 ---
