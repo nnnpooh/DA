@@ -3,7 +3,7 @@ marp: true
 theme: default
 author: Nirand Pisutha-Arnond
 paginate: true
-footer: 'Workshop Part 2: Descriptive Analysis Using Power BI / Chart'
+footer: 'Workshop Part 2: Descriptive Analysis Using Power BI'
 math: mathjax
 ---
 
