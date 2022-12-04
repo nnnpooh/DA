@@ -3,7 +3,7 @@ marp: true
 theme: default
 author: Nirand Pisutha-Arnond
 paginate: true
-footer: 'Workshop Part 1: Descriptive Analysis Using Pivot Table / Pivot Chart'
+footer: "Workshop Part 1: Descriptive Analysis Using Pivot Table / Pivot Chart"
 math: mathjax
 ---
 
@@ -562,3 +562,25 @@ div.colwrap div.right {
       <iframe width="560" height="315" src="https://www.youtube.com/embed/o9CltPjbJcc?start=1625" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
+
+---
+
+# กิจกรรม
+
+- สร้าง Dashboard สำหรับข้อมูล การส่งสินค้าของ Shopee
+  - ประเทศฟิลิปปินส์
+  - ในช่วง มีนาคม 2563 - เมษายน 2563
+  - ระหว่างเมืองมะนิลา, หมู่เกาะลูซอน, หมู่เกาะมินดาเนา, หมู่เกาะวิสายาส์
+- `04 - Shopee Orders Reduced.xlsx`
+  - ข้อมูลถูกดัดแปลงให้มีขนาดลดลงจาก [ข้อมูลดิบ](https://www.kaggle.com/c/logistics-shopee-code-league/data)
+  - เพิ่มข้อมูลของบริษัทขนส่ง (fabricated data)
+
+---
+
+# คำถาม
+
+- จำนวน Order ในแต่ละวันมีเท่าไร
+- ในช่วงเวลาหนึ่งๆ จำนวน Order ในแต่ละเส้นทางมีเท่าไร แยกตามการส่งสายและไม่สาย
+- ในช่วงเวลาหนึ่งๆ จำนวน Order ในแต่ละเส้นทางมีเท่าไร แยกตามการส่งสายและไม่สาย
+- ในช่วงเวลาหนึ่งๆ และในเส้นทางหนึ่งๆ เวลาในการส่ง (1st attempt) ของแต่ละ Carrier เฉลี่ยเท่าไร
+- ในช่วงเวลาหนึ่งๆ และในเส้นทางหนึ่งๆ เวลาในการส่ง (1st attempt) สายและไม่สายมีค่าเฉลี่ยเท่าไร
