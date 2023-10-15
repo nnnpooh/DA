@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-@import url('fa/css/all.css');
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("fa/css/all.css");
 
 :root {
   --blue: #71dfe7;
@@ -34,14 +34,13 @@ body {
 
 .header-title {
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 .box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .box-item {
