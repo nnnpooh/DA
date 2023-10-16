@@ -165,7 +165,9 @@ div.colwrap div.right {
 
 # Older Version of Excel
 
-`=IF([@[Customer Age]]<25,"Youth", IF([@[Customer Age]]<35,"Young Adult", IF([@[Customer Age]] <65,"Adults", IF([@[Customer Age]]>=65,"Seniors"))))`
+- `=IF([@[Customer Age]]<25,"Youth", IF([@[Customer Age]]<35,"Young Adult", IF([@[Customer Age]] <65,"Adults", IF([@[Customer Age]]>=65,"Seniors"))))`
+
+- `=IF(Sale[[#This Row],[Customer Age]]<25,"Youth", IF(Sale[[#This Row],[Customer Age]],"Young Adult", IF(Sale[[#This Row],[Customer Age]],"Adults", IF(Sale[[#This Row],[Customer Age]],"Seniors"))))`
 
 ---
 
